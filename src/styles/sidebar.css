@@ -1,0 +1,37 @@
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 16px;
+}
+.logo-icons {
+  font-size: 32px;
+}
+.menu-list .icon {
+  font-size: 28px;
+  display: flex;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu-list .item {
+  display: flex;
+  algin-items: center;
+  gap: 20px;
+  font-size: 18px;
+  text-direction: none;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  color: #27374d;
+}
+.menu-list .item:hover {
+  background-color: #27374d;
+  color: #dde6ed;
+  text-color: #fff;
+}

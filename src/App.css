@@ -1,0 +1,13 @@
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+.dashboard-content {
+  border-radius: 20px;
+  flex: 1;
+  background: #fff;
+  display: flex;
+  padding: 8px;
+  gap: 6px;
+  justify-content: space-between;
+}
